@@ -1,0 +1,1702 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Shuchi Cleaning Service | Warangal</title>
+
+<meta name="description"
+content="Shuchi Cleaning Service - Professional home, bathroom, sofa, kitchen, water tank and commercial cleaning services in Warangal, Hanamkonda and Kazipet.">
+
+<style>
+
+/* =========================
+   BASIC SETTINGS
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#17212b;
+    background:#f8fbfd;
+    overflow-x:hidden;
+}
+
+a{
+    text-decoration:none;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+section{
+    padding:90px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title .small{
+    color:#00a878;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:2px;
+}
+
+.section-title h2{
+    font-size:42px;
+    margin:10px 0;
+    color:#073b66;
+}
+
+.section-title p{
+    color:#66727d;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:1000;
+    background:rgba(255,255,255,.95);
+    box-shadow:0 2px 20px rgba(0,0,0,.08);
+}
+
+.navbar{
+    height:75px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo-box{
+    width:48px;
+    height:48px;
+    border-radius:12px;
+    background:linear-gradient(135deg,#0077b6,#00a878);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.logo-text{
+    font-size:22px;
+    font-weight:bold;
+    color:#073b66;
+}
+
+.logo-text span{
+    color:#00a878;
+}
+
+nav{
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    color:#27343d;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#00a878;
+}
+
+.nav-btn{
+    background:#00a878;
+    color:white!important;
+    padding:11px 18px;
+    border-radius:8px;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+    min-height:100vh;
+    padding-top:75px;
+    display:flex;
+    align-items:center;
+
+    background:
+    linear-gradient(90deg,
+    rgba(3,47,78,.92),
+    rgba(3,47,78,.65)),
+    url("https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1800&q=85");
+
+    background-size:cover;
+    background-position:center;
+}
+
+.hero-content{
+    color:white;
+    max-width:720px;
+    animation:fadeUp 1s ease;
+}
+
+.hero-badge{
+    display:inline-block;
+    background:rgba(255,255,255,.15);
+    padding:9px 16px;
+    border-radius:30px;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:58px;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+
+.hero h1 span{
+    color:#35e6a7;
+}
+
+.hero p{
+    font-size:19px;
+    line-height:1.8;
+    color:#e7eef3;
+    margin-bottom:30px;
+}
+
+.hero-buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 25px;
+    border-radius:9px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn-green{
+    background:#00a878;
+    color:white;
+}
+
+.btn-green:hover{
+    transform:translateY(-3px);
+}
+
+.btn-white{
+    background:white;
+    color:#073b66;
+}
+
+.btn-white:hover{
+    transform:translateY(-3px);
+}
+
+
+/* =========================
+   STATS
+========================= */
+
+.stats{
+    margin-top:-50px;
+    position:relative;
+    z-index:5;
+}
+
+.stats-grid{
+    background:white;
+    border-radius:18px;
+    padding:30px;
+    box-shadow:0 10px 40px rgba(0,0,0,.12);
+
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+}
+
+.stat{
+    text-align:center;
+    border-right:1px solid #eee;
+}
+
+.stat:last-child{
+    border:none;
+}
+
+.stat h3{
+    color:#0077b6;
+    font-size:30px;
+}
+
+.stat p{
+    color:#68737b;
+}
+
+
+/* =========================
+   SERVICES
+========================= */
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.service{
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 30px rgba(0,0,0,.07);
+    transition:.4s;
+}
+
+.service:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+}
+
+.service img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.service-content{
+    padding:25px;
+}
+
+.service-icon{
+    font-size:30px;
+}
+
+.service h3{
+    margin:10px 0;
+    color:#073b66;
+}
+
+.service p{
+    color:#68737b;
+}
+
+
+/* =========================
+   WHY US
+========================= */
+
+.why{
+    background:#073b66;
+    color:white;
+}
+
+.why .section-title h2{
+    color:white;
+}
+
+.why .section-title p{
+    color:#cddce6;
+}
+
+.why-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+}
+
+.why-card{
+    padding:30px 20px;
+    text-align:center;
+    background:rgba(255,255,255,.08);
+    border-radius:15px;
+    transition:.3s;
+}
+
+.why-card:hover{
+    transform:translateY(-7px);
+    background:rgba(255,255,255,.13);
+}
+
+.why-icon{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.why-card p{
+    color:#cbd9e2;
+    margin-top:8px;
+}
+
+
+/* =========================
+   PRICES
+========================= */
+
+.price-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.price-card{
+    background:white;
+    border-radius:18px;
+    padding:30px;
+    box-shadow:0 8px 30px rgba(0,0,0,.07);
+}
+
+.price-card h3{
+    color:#073b66;
+    margin-bottom:20px;
+    font-size:23px;
+}
+
+.price-row{
+    display:flex;
+    justify-content:space-between;
+    padding:13px 0;
+    border-bottom:1px solid #eee;
+}
+
+.price{
+    color:#00a878;
+    font-weight:bold;
+}
+
+
+/* =========================
+   BEFORE AFTER
+========================= */
+
+.gallery{
+    background:#f0f7fa;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+}
+
+.gallery-card{
+    background:white;
+    padding:15px;
+    border-radius:18px;
+    box-shadow:0 8px 30px rgba(0,0,0,.07);
+}
+
+.before-after{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:10px;
+}
+
+.before-after div{
+    position:relative;
+}
+
+.before-after img{
+    width:100%;
+    height:260px;
+    object-fit:cover;
+    border-radius:12px;
+}
+
+.label{
+    position:absolute;
+    top:12px;
+    left:12px;
+    background:#073b66;
+    color:white;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:12px;
+    font-weight:bold;
+}
+
+
+/* =========================
+   REVIEWS
+========================= */
+
+.reviews-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+}
+
+.review{
+    background:white;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 8px 30px rgba(0,0,0,.07);
+}
+
+.stars{
+    color:#f5b301;
+    font-size:20px;
+    margin-bottom:15px;
+}
+
+.review p{
+    color:#59656e;
+    margin-bottom:20px;
+}
+
+.customer{
+    font-weight:bold;
+    color:#073b66;
+}
+
+
+/* =========================
+   MAP
+========================= */
+
+.map-box{
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.map-box iframe{
+    width:100%;
+    height:400px;
+    border:0;
+}
+
+
+/* =========================
+   BOOKING
+========================= */
+
+.booking{
+    background:linear-gradient(135deg,#e9fbf5,#edf8ff);
+}
+
+.booking-box{
+    max-width:700px;
+    margin:auto;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 35px rgba(0,0,0,.08);
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:15px;
+    border:1px solid #dce3e8;
+    border-radius:8px;
+    font-size:16px;
+    outline:none;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    border-color:#00a878;
+}
+
+textarea{
+    height:120px;
+    resize:none;
+}
+
+.form-btn{
+    width:100%;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    background:#061f32;
+    color:white;
+    padding:60px 0 25px;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:40px;
+}
+
+footer h3{
+    color:#35e6a7;
+    margin-bottom:15px;
+}
+
+footer p,
+footer li{
+    color:#c6d1d8;
+    margin-bottom:8px;
+}
+
+footer ul{
+    list-style:none;
+}
+
+.copyright{
+    text-align:center;
+    border-top:1px solid rgba(255,255,255,.1);
+    margin-top:40px;
+    padding-top:20px;
+}
+
+
+/* =========================
+   WHATSAPP FLOATING BUTTON
+========================= */
+
+.whatsapp{
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    width:62px;
+    height:62px;
+    background:#25D366;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:32px;
+    z-index:999;
+    box-shadow:0 5px 20px rgba(0,0,0,.25);
+    animation:pulse 2s infinite;
+}
+
+
+/* =========================
+   ANIMATIONS
+========================= */
+
+.reveal{
+    opacity:0;
+    transform:translateY(40px);
+    transition:1s;
+}
+
+.reveal.active{
+    opacity:1;
+    transform:translateY(0);
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow:0 0 0 0 rgba(37,211,102,.6);
+    }
+    70%{
+        box-shadow:0 0 0 15px rgba(37,211,102,0);
+    }
+    100%{
+        box-shadow:0 0 0 0 rgba(37,211,102,0);
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:900px){
+
+    nav{
+        display:none;
+    }
+
+    .hero h1{
+        font-size:42px;
+    }
+
+    .stats-grid{
+        grid-template-columns:repeat(2,1fr);
+        gap:25px;
+    }
+
+    .stat{
+        border:none;
+    }
+
+    .services-grid,
+    .price-grid,
+    .reviews-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .why-grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+    .footer-grid{
+        grid-template-columns:1fr;
+    }
+}
+
+
+@media(max-width:600px){
+
+    section{
+        padding:65px 0;
+    }
+
+    .hero{
+        min-height:90vh;
+    }
+
+    .hero h1{
+        font-size:36px;
+    }
+
+    .hero p{
+        font-size:16px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+    }
+
+    .hero-buttons .btn{
+        text-align:center;
+    }
+
+    .section-title h2{
+        font-size:32px;
+    }
+
+    .stats-grid,
+    .services-grid,
+    .price-grid,
+    .reviews-grid,
+    .why-grid,
+    .gallery-grid{
+        grid-template-columns:1fr;
+    }
+
+    .before-after{
+        grid-template-columns:1fr 1fr;
+    }
+
+    .before-after img{
+        height:180px;
+    }
+
+    .logo-text{
+        font-size:18px;
+    }
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<header>
+
+<div class="container navbar">
+
+    <a href="#home" class="logo">
+
+        <!-- Replace this box with your Shuchi logo -->
+        <div class="logo-box">
+            S
+        </div>
+
+        <div class="logo-text">
+            Shuchi <span>Cleaning</span>
+        </div>
+
+    </a>
+
+    <nav>
+
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#prices">Prices</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact" class="nav-btn">Book Now</a>
+
+    </nav>
+
+</div>
+
+</header>
+
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero" id="home">
+
+<div class="container">
+
+<div class="hero-content">
+
+<div class="hero-badge">
+⭐ Professional Cleaning Service
+</div>
+
+<h1>
+Your Space.
+<br>
+Our <span>Shuchi</span>.
+</h1>
+
+<p>
+Professional home and commercial cleaning services
+in Warangal, Hanamkonda and Kazipet.
+We clean deeper, fresher and better.
+</p>
+
+<div class="hero-buttons">
+
+<a href="https://wa.me/919492882931?text=Hello%20Shuchi%20Cleaning%20Service,%20I%20want%20to%20book%20a%20cleaning%20service."
+class="btn btn-green">
+💬 WhatsApp Booking
+</a>
+
+<a href="tel:+919492882931"
+class="btn btn-white">
+📞 Call 9492882931
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     STATS
+========================= -->
+
+<div class="stats">
+
+<div class="container">
+
+<div class="stats-grid">
+
+<div class="stat">
+<h3>100%</h3>
+<p>Professional Service</p>
+</div>
+
+<div class="stat">
+<h3>6+</h3>
+<p>Cleaning Services</p>
+</div>
+
+<div class="stat">
+<h3>3</h3>
+<p>Major Service Areas</p>
+</div>
+
+<div class="stat">
+<h3>⭐ 5.0</h3>
+<p>Customer Focused</p>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- =========================
+     SERVICES
+========================= -->
+
+<section id="services">
+
+<div class="container">
+
+<div class="section-title reveal">
+
+<div class="small">
+Our Services
+</div>
+
+<h2>Professional Cleaning Solutions</h2>
+
+<p>
+From bathrooms to complete homes, we take care of the cleaning.
+</p>
+
+</div>
+
+
+<div class="services-grid">
+
+
+<div class="service reveal">
+
+<img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=900&q=80">
+
+<div class="service-content">
+
+<div class="service-icon">🏠</div>
+
+<h3>Full Home Deep Cleaning</h3>
+
+<p>
+Complete deep cleaning for bedrooms, living rooms,
+kitchen, bathrooms and hard-to-reach areas.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="service reveal">
+
+<img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=900&q=80">
+
+<div class="service-content">
+
+<div class="service-icon">🚿</div>
+
+<h3>Bathroom Cleaning</h3>
+
+<p>
+Remove dirt, soap deposits, stains and buildup
+for a fresh and hygienic bathroom.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="service reveal">
+
+<img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=900&q=80">
+
+<div class="service-content">
+
+<div class="service-icon">🛋️</div>
+
+<h3>Sofa & Carpet Cleaning</h3>
+
+<p>
+Professional cleaning to remove dust, dirt and
+unwanted odour from upholstery.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="service reveal">
+
+<img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=900&q=80">
+
+<div class="service-content">
+
+<div class="service-icon">🍳</div>
+
+<h3>Kitchen Cleaning</h3>
+
+<p>
+Deep cleaning for grease, oil stains, cabinets,
+tiles and kitchen surfaces.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="service reveal">
+
+<img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=900&q=80">
+
+<div class="service-content">
+
+<div class="service-icon">💧</div>
+
+<h3>Water Tank Cleaning</h3>
+
+<p>
+Professional cleaning for residential water tanks
+and sumps.
+</p>
+
+</div>
+
+</div>
+
+
+<div class="service reveal">
+
+<img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=900&q=80">
+
+<div class="service-content">
+
+<div class="service-icon">🏢</div>
+
+<h3>Commercial Cleaning</h3>
+
+<p>
+Cleaning solutions for offices, restaurants,
+shops and commercial spaces.
+</p>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     WHY CHOOSE US
+========================= -->
+
+<section class="why">
+
+<div class="container">
+
+<div class="section-title reveal">
+
+<div class="small">
+Why Shuchi
+</div>
+
+<h2>Why Choose Us?</h2>
+
+<p>
+Professional cleaning with attention to every detail.
+</p>
+
+</div>
+
+
+<div class="why-grid">
+
+<div class="why-card reveal">
+
+<div class="why-icon">👨‍🔧</div>
+
+<h3>Professional Team</h3>
+
+<p>
+Trained and dedicated cleaning professionals.
+</p>
+
+</div>
+
+
+<div class="why-card reveal">
+
+<div class="why-icon">🧹</div>
+
+<h3>Advanced Equipment</h3>
+
+<p>
+Professional cleaning machines and equipment.
+</p>
+
+</div>
+
+
+<div class="why-card reveal">
+
+<div class="why-icon">✨</div>
+
+<h3>Deep Cleaning</h3>
+
+<p>
+We focus on the areas others often miss.
+</p>
+
+</div>
+
+
+<div class="why-card reveal">
+
+<div class="why-icon">📞</div>
+
+<h3>Easy Booking</h3>
+
+<p>
+Quick booking through WhatsApp or phone.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     PRICES
+========================= -->
+
+<section id="prices">
+
+<div class="container">
+
+<div class="section-title reveal">
+
+<div class="small">
+Our Pricing
+</div>
+
+<h2>Simple & Transparent Prices</h2>
+
+<p>
+Affordable professional cleaning packages.
+</p>
+
+</div>
+
+
+<div class="price-grid">
+
+
+<div class="price-card reveal">
+
+<h3>🚿 Bathroom Cleaning</h3>
+
+<div class="price-row">
+<span>1 Bathroom</span>
+<span class="price">₹799</span>
+</div>
+
+<div class="price-row">
+<span>2 Bathrooms</span>
+<span class="price">₹1,500</span>
+</div>
+
+<div class="price-row">
+<span>3 Bathrooms</span>
+<span class="price">₹2,200</span>
+</div>
+
+<div class="price-row">
+<span>4 Bathrooms</span>
+<span class="price">₹2,600</span>
+</div>
+
+</div>
+
+
+<div class="price-card reveal">
+
+<h3>💧 Water Tank Cleaning</h3>
+
+<div class="price-row">
+<span>1,000 Litres</span>
+<span class="price">₹799</span>
+</div>
+
+<div class="price-row">
+<span>2,000 Litres</span>
+<span class="price">₹1,200</span>
+</div>
+
+<div class="price-row">
+<span>3,000 Litres</span>
+<span class="price">₹1,600</span>
+</div>
+
+<div class="price-row">
+<span>4,000 Litres</span>
+<span class="price">₹2,200</span>
+</div>
+
+</div>
+
+
+<div class="price-card reveal">
+
+<h3>🏠 Full Home Deep Cleaning</h3>
+
+<div class="price-row">
+<span>1 BHK Empty</span>
+<span class="price">₹4,500</span>
+</div>
+
+<div class="price-row">
+<span>2 BHK Empty</span>
+<span class="price">₹6,000</span>
+</div>
+
+<div class="price-row">
+<span>3 BHK Empty</span>
+<span class="price">₹7,000</span>
+</div>
+
+<div class="price-row">
+<span>1 BHK Occupied</span>
+<span class="price">₹6,500</span>
+</div>
+
+<div class="price-row">
+<span>2 BHK Occupied</span>
+<span class="price">₹7,500</span>
+</div>
+
+<div class="price-row">
+<span>3 BHK Occupied</span>
+<span class="price">₹8,500</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     BEFORE AFTER
+========================= -->
+
+<section class="gallery" id="gallery">
+
+<div class="container">
+
+<div class="section-title reveal">
+
+<div class="small">
+Our Work
+</div>
+
+<h2>Before & After</h2>
+
+<p>
+See the difference professional cleaning can make.
+</p>
+
+</div>
+
+
+<div class="gallery-grid">
+
+
+<div class="gallery-card reveal">
+
+<div class="before-after">
+
+<div>
+
+<span class="label">BEFORE</span>
+
+<img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=800&q=80">
+
+</div>
+
+<div>
+
+<span class="label">AFTER</span>
+
+<img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80">
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="gallery-card reveal">
+
+<div class="before-after">
+
+<div>
+
+<span class="label">BEFORE</span>
+
+<img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80">
+
+</div>
+
+<div>
+
+<span class="label">AFTER</span>
+
+<img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=800&q=80">
+
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     REVIEWS
+========================= -->
+
+<section id="reviews">
+
+<div class="container">
+
+<div class="section-title reveal">
+
+<div class="small">
+Customer Reviews
+</div>
+
+<h2>What Our Customers Say</h2>
+
+<p>
+Your satisfaction is our priority.
+</p>
+
+</div>
+
+
+<div class="reviews-grid">
+
+
+<div class="review reveal">
+
+<div class="stars">
+★★★★★
+</div>
+
+<p>
+"Very professional cleaning service. The team cleaned
+everything properly and the house looked completely fresh."
+</p>
+
+<div class="customer">
+— Happy Customer
+</div>
+
+</div>
+
+
+<div class="review reveal">
+
+<div class="stars">
+★★★★★
+</div>
+
+<p>
+"Excellent bathroom and home cleaning service.
+Professional equipment and good service."
+</p>
+
+<div class="customer">
+— Happy Customer
+</div>
+
+</div>
+
+
+<div class="review reveal">
+
+<div class="stars">
+★★★★★
+</div>
+
+<p>
+"Good response and professional work. Highly recommended
+for home deep cleaning."
+</p>
+
+<div class="customer">
+— Happy Customer
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     GOOGLE MAP
+========================= -->
+
+<section>
+
+<div class="container">
+
+<div class="section-title reveal">
+
+<div class="small">
+Find Us
+</div>
+
+<h2>Serving Warangal & Nearby Areas</h2>
+
+<p>
+Warangal • Hanamkonda • Kazipet
+</p>
+
+</div>
+
+
+<div class="map-box reveal">
+
+<iframe
+src="https://www.google.com/maps?q=Warangal%2C%20Telangana&output=embed"
+loading="lazy">
+</iframe>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     BOOKING
+========================= -->
+
+<section class="booking" id="contact">
+
+<div class="container">
+
+<div class="section-title reveal">
+
+<div class="small">
+Book Now
+</div>
+
+<h2>Get Your Cleaning Service</h2>
+
+<p>
+Fill in your details and send your booking directly to WhatsApp.
+</p>
+
+</div>
+
+
+<div class="booking-box reveal">
+
+<form id="bookingForm">
+
+<input
+type="text"
+id="name"
+placeholder="Your Name"
+required>
+
+<input
+type="tel"
+id="phone"
+placeholder="Mobile Number"
+required>
+
+<select id="service" required>
+
+<option value="">
+Select Cleaning Service
+</option>
+
+<option>Full Home Deep Cleaning</option>
+<option>Bathroom Cleaning</option>
+<option>Sofa & Carpet Cleaning</option>
+<option>Kitchen Cleaning</option>
+<option>Water Tank Cleaning</option>
+<option>Commercial Cleaning</option>
+
+</select>
+
+<input
+type="text"
+id="location"
+placeholder="Your Location"
+required>
+
+<textarea
+id="requirements"
+placeholder="Tell us about your cleaning requirement">
+</textarea>
+
+<button
+type="submit"
+class="btn btn-green form-btn">
+
+💬 Send Booking on WhatsApp
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+<div class="container">
+
+<div class="footer-grid">
+
+<div>
+
+<h3>Shuchi Cleaning Service</h3>
+
+<p>
+Professional Home & Commercial Cleaning Services.
+</p>
+
+<p>
+📍 Warangal • Hanamkonda • Kazipet
+</p>
+
+<p>
+📞 +91 94928 82931
+</p>
+
+</div>
+
+
+<div>
+
+<h3>Quick Links</h3>
+
+<ul>
+
+<li><a href="#home">Home</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#prices">Prices</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Book Now</a></li>
+
+</ul>
+
+</div>
+
+
+<div>
+
+<h3>Services</h3>
+
+<ul>
+
+<li>Home Deep Cleaning</li>
+<li>Bathroom Cleaning</li>
+<li>Sofa Cleaning</li>
+<li>Kitchen Cleaning</li>
+<li>Water Tank Cleaning</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<div class="copyright">
+
+© 2026 Shuchi Cleaning Service. All Rights Reserved.
+
+</div>
+
+</div>
+
+</footer>
+
+
+<!-- =========================
+     FLOATING WHATSAPP
+========================= -->
+
+<a
+class="whatsapp"
+href="https://wa.me/919492882931?text=Hello%20Shuchi%20Cleaning%20Service,%20I%20want%20to%20book%20a%20cleaning%20service."
+target="_blank">
+
+💬
+
+</a>
+
+
+<!-- =========================
+     JAVASCRIPT
+========================= -->
+
+<script>
+
+/* =========================
+   SCROLL ANIMATION
+========================= */
+
+function revealOnScroll(){
+
+    const elements =
+    document.querySelectorAll(".reveal");
+
+    elements.forEach(function(element){
+
+        const windowHeight =
+        window.innerHeight;
+
+        const elementTop =
+        element.getBoundingClientRect().top;
+
+        if(elementTop < windowHeight - 80){
+
+            element.classList.add("active");
+
+        }
+
+    });
+
+}
+
+window.addEventListener(
+    "scroll",
+    revealOnScroll
+);
+
+revealOnScroll();
+
+
+/* =========================
+   WHATSAPP BOOKING FORM
+========================= */
+
+document
+.getElementById("bookingForm")
+.addEventListener("submit", function(e){
+
+    e.preventDefault();
+
+    const name =
+    document.getElementById("name").value;
+
+    const phone =
+    document.getElementById("phone").value;
+
+    const service =
+    document.getElementById("service").value;
+
+    const location =
+    document.getElementById("location").value;
+
+    const requirements =
+    document.getElementById("requirements").value;
+
+
+    const message =
+    `Hello Shuchi Cleaning Service,
+
+I want to book a cleaning service.
+
+Name: ${name}
+
+Phone: ${phone}
+
+Service: ${service}
+
+Location: ${location}
+
+Requirement: ${requirements}`;
+
+
+    const url =
+    "https://wa.me/919492882931?text="
+    + encodeURIComponent(message);
+
+
+    window.open(
+        url,
+        "_blank"
+    );
+
+});
+
+</script>
+
+
+</body>
+</html>
